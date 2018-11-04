@@ -1,0 +1,375 @@
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(71, 71, 71, 1);
+    border-bottom-width: 1px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(255, 255, 255, 0.02);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0.04);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(231, 231, 231, 0.03);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #474747;
+}
+
+html{
+       height: 100%;
+       margin: 0px;
+   }
+
+
+body {
+  height: 100%;
+  margin: 0px;
+  position:relative;
+  font-family:Raleway,sans serif;
+  color:#fdfdfd;
+      }
+
+.container {
+  height:100%;
+}
+
+.jumbotron {
+  position:relative;
+  background:url("http://www.hindusthan.net/images/group/hit.jpg");
+  width:100%;
+  height:100%;
+  min-height:100%;
+  margin: 0px;
+  top:15%;
+
+
+  }
+
+
+#home {
+  background:url("http://www.hindusthan.net/images/group/hit.jpg");
+  height:100%;
+  
+}
+
+#projects {
+  position:relative;
+  min-height:100%;
+  height:100%;
+  border:0px;
+  margin:0px;
+}
+
+#about {
+  background-color:#FFAF78;
+  position:relative;
+  height:125%;
+  min-height:100%;
+  border:0px;
+  margin:0px;
+  font-size: 18px;
+
+}
+
+
+
+#testimonials {
+  background-color:#a3d285;
+}
+
+#contact {
+  background:url(https://cdn2.vectorstock.com/i/1000x1000/13/96/social-media-icons-over-world-map-background-vector-16201396.jpg);
+  position:relative;
+  height:100%;
+  min-height:100%;
+  border:0px;
+  margin:0px;
+  font-size: 18px;
+  width:150%;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.thumbnail {
+  background-color:#fdfdfd;
+}
+
+.thumbnail:hover {
+  background-color:grey;
+}
+
+#aboutheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#projectsheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#contactsheader {
+  padding-top: 5%;
+  padding-bottom:5%;
+}
+
+#footerhome {
+  position:absolute;
+  bottom:2%;
+  right:50%;
+  left:50%;
+
+  }
+
+#footerabout {
+    position:absolute;
+    bottom:2%;
+    right:50%;
+    left:50%;
+
+    }
+
+#footerprojects {
+      position:absolute;
+      bottom:2%;
+      right:50%;
+      left:50%;
+
+      }
+
+#homeicons {
+  position:relative;;
+  padding:0px;
+}
+
+#arrow {
+  font-size: 40px;
+  text-align: center;
+  padding:0px;
+
+}
+
+.arrowwhite {
+  color:#fdfdfd;
+}
+
+.iconwhite {
+  color:#fdfdfd;
+}
+
+#contacticons {
+  text-align: center;
+  margin:auto;
+}
+center{
+ color:black;
+}
+h2{
+  color:black;
+}
+p{
+  color:black;
+}
+{
+  colour:red;
+}
+
+
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  background: radial-gradient(circle, #c4e0e5, #4ca1af);
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  margin: 50px auto;
+  padding: 30px 20px;
+  background: #fff;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 8px 15px #030303;
+  -webkit-box-shadow: 0px 8px 15px #030303;
+  -moz-box-shadow: 0px 8px 15px #030303;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+}
+
+.box h1 {
+  font-size: 2.5em;
+  font-variant: small-caps;
+  color: #4ca1af;
+}
+
+.box label {
+  font-size: 1em;
+  font-variant: small-caps;
+}
+
+.box input {
+  width: 40%;
+  height: 30px;
+  display: block;
+  padding: 1px 3px;
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000;
+  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.box input:focus {
+  width: 70%;
+  outline: none;
+}
+
+.button {
+  width: 50%;
+  height: 45px;
+  margin: 3% auto;
+  font-variant: small-caps;
+  font-size: 0.9em;
+  background: #4ca1af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button:hover {
+  box-shadow: 0 6px 10px #848484;
+  outline: none;
+}
+
+.button:active {
+  box-shadow: 0 1px 2px #848484;
+  outline: none;
+  -ms-transform: scale(0.97, 0.97); /* IE 9 */
+  -webkit-transform: scale(0.97, 0.97); /* Safari */
+  transform: scale(0.97, 0.97);
+}
+
+.button:focus {
+  outline: none;
+}
+
+label{
+  color:black;
+}
+.sizing-box {
+  position: relative;
+  height: 0;
+  /*border: .1rem solid goldenrod;*/ }
+  .sizing-box.portfolio {
+    padding-bottom: 100%; }
+
+.thumbnail-wrap .meta-overlay {
+  z-index: 1 !important;
+  color: #334;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 1.2rem solid rgba(200, 220, 255, 0.7);
+  padding: 1.5rem;
+  /*12px 15px 0 15px;*/
+  box-sizing: border-box;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  background: rgba(50, 50, 255, 0.1); }
+.thumbnail-wrap iframe {
+  -ms-zoom: 0.25;
+  -moz-transform: scale(0.25);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.25);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.25);
+  -webkit-transform-origin: 0 0;
+  /*    position: absolute;
+      top:0;
+      left:0;*/
+  visibility: visible;
+  opacity: 1;
+  border: none;
+  box-shadow: none;
+  width: 400%;
+  height: 400%;
+  overflow: hidden; }
+.thumbnail-wrap:hover .meta-overlay {
+  opacity: 1; }
+.thumbnail-wrap:hover iframe {
+  opacity: 0.1; }
+
+.iframe-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 100%;
+  /*border: .2rem dashed lime;*/ }
+
+html {
+  min-height: 100%; }
+  html body {
+    min-height: inherit;
+    background: #ffe; }
+    html body div.bigbox {
+      background: url(http://ckingbailey.com/portfolio-page/img/binderPaperbg.jpg) no-repeat center center;
+      background-size: contain; }
+
+
+boxing {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+li{
+  color:black;
+}
+
+.honey{
+  font-size:100px;
+}
